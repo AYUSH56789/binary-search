@@ -21,6 +21,7 @@ public class problem3 {
 
     // optimal solution: time complexity O(logN) with space complexity O(1)
     public static int optimalSolution(int arr[],int target ){
+        // this is based on the lower bound question.
         int left=0;
         int right=arr.length-1;
         int position=arr.length;
